@@ -11,12 +11,12 @@ const socialNetworks = [
 const SocialNetworks = () => {
   return <section id="social-networks">
     {socialNetworks.map((network) => (
-        <a href="" className='social-btn' id={network.name} key={network.name}>
+        <a href="https://www.linkedin.com/in/lucas-arag%C3%A3o-front-end/" className='social-btn' id={network.name} key={network.name}>
             {network.icon}
         </a>
     ))}
   </section>;
-    
+
 }
 
 export default SocialNetworks

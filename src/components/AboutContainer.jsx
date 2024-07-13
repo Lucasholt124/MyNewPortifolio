@@ -2,10 +2,10 @@
 const AboutContainer = () => {
   return <section className="about-container">
     <h2>Sobre</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae non repudiandae quam, incidunt voluptas excepturi quis nihil quaerat odio nemo impedit laudantium temporibus, animi sequi. Necessitatibus provident ipsum nisi incidunt?
-    Esse perspiciatis mollitia aliquam aliquid optio necessitatibus asperiores recusandae atque possimus consectetur aut ab ipsam, ipsa vel accusamus libero minima consequuntur fugiat deserunt delectus eveniet est deleniti reprehenderit. Aliquid, excepturi?
+    <p>Meu foco principal é transformar designs complexos em experiências de usuário intuitivas e responsivas. Tenho um forte conhecimento em HTML, CSS e JavaScript, combinado com experiência em frameworks e bibliotecas modernos como React.
+Ao longo da minha carreira, trabalhei em projetos diversos que exigiam não apenas habilidades técnicas, mas também uma compreensão profunda dos princípios de design e usabilidade. Sou capaz de colaborar efetivamente com designers e desenvolvedores back-end para implementar soluções que atendam tanto aos requisitos técnicos quanto às expectativas estéticas.
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempore accusantium, repellat esse doloremque quisquam, eos earum asperiores saepe omnis, porro molestias ducimus magnam explicabo aut dolor laboriosam enim iusto!
+    <p>Meu interesse em aprender e aplicar novas tecnologias me mantém atualizado com as tendências do setor, garantindo que meus projetos estejam sempre na vanguarda. Sou proativo, organizado e capaz de trabalhar bem sob pressão em ambientes ágeis. Estou em busca de oportunidades que me permitam continuar crescendo profissionalmente enquanto contribuo para o sucesso da equipe.
     </p>
   </section>
 }
