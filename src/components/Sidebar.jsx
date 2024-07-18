@@ -4,6 +4,7 @@ import Avatar from '../img/imagem.jpeg';
 
 import '../styles/components/sidebar.sass';
 import InformationContainer from './InformationContainer';
+import Currículo from '../img/Currículo LUCAS ARAGÃO 1.pdf';
 
 
 const Sidebar = () => {
@@ -13,7 +14,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Front-End</p>
       <SocialNetworks />
       <InformationContainer />
-      <a href="" className="btn">
+      <a href={Currículo} download={"Currículo LUCAS ARAGÃO 1.pdf"} className="btn">
       Download currículo
       </a>
 
