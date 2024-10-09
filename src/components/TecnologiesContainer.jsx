@@ -3,7 +3,7 @@ import {
   DiCss3,
   DiJsBadge,
   DiSass,
-  DiBootstrap,
+  TypeScript,
   DiReact
 } from 'react-icons/di'
 
@@ -15,7 +15,7 @@ const Tecnologies = [
   {id:"css", name: "CSS3", icon: <DiCss3 />},
   {id:"js", name: "JavaScript", icon: < DiJsBadge />},
   {id:"sass", name: "Sass", icon: <DiSass />},
-  {id:"Bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
+  {id:"node", name: "TypeScript", icon: <TypeScript />},
   {id:"react", name: "React", icon: <DiReact />},
 ];
 const TecnologiesContainer = () => {
