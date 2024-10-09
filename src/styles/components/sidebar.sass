@@ -14,35 +14,16 @@
 
 
     img
-        max-width: 65%
+        max-width:40%
+        max-height: 30%
         border-radius: variables.$container-border-radius
         position: absolute
-        top: -8rem
         border: 3px solid variables.$text-color
-        animation-name: wave-animation
-        animation-duration: 2.1s
-        animation-iteration-count: infinite
+        animation: wave-animation 2.1s infinite
         transform-origin: 70% 70%
-        display: inline-block
+        display: block
 
 
-    @keyframes wave-animation
-        0%
-        transform: rotate(0deg)
-        10%
-        transform: rotate(14deg)
-        20%
-        transform: rotate(-8deg)
-        30%
-        transform: rotate(14deg)
-        40%
-        transform: rotate(-4deg)
-        50%
-        transform: rotate(10deg)
-        60%
-        transform: rotate(0deg)
-        100%
-        transform: rotate(0deg)
 
 
     .title
@@ -50,9 +31,21 @@
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
         margin-top: 13rem
-        padding: .8rem 1.2rem
+        padding: 0.8rem 1.2rem
 
     .btn
-
         @include mixins.btn
+
+@keyframes wave-animation
+    0%, 60%, 100%
+        transform: rotate(0deg)
+    10%, 30%
+        transform: rotate(14deg)
+    20%
+        transform: rotate(-8deg)
+    40%
+        transform: rotate(-4deg)
+    50%
+        transform: rotate(10deg)
+
 
